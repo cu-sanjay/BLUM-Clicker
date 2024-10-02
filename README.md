@@ -59,50 +59,48 @@ pip install pyautogui pygetwindow pynput keyboard
    - **Pause/Resume**: Press **Q** to pause or resume the clicking if needed.
    - **Exit**: Press **Z** to exit the clicker entirely.
 
-## How to Use
+## Running Guide
 
-1. **Clone the Repository**
+### Option 1: Manual Running Using Commands
 
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/cu-sanjay/BLUM-Clicker
    cd BLUM-Clicker
    ```
 
-2. **Install Dependencies**
-
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the Script**
-
+3. **Run the Script**:
    ```bash
    python blum.py
    ```
 
-4. **Enter the Window Name**
+4. **Follow the On-Screen Prompts**:
+   - Enter the window name for Telegram (**1** for TelegramDesktop).
+   - Set a delay (in seconds) before starting the clicker.
+   - The clicker will then begin clicking in the game after the delay.
 
-   The script will prompt you to enter the window name for Telegram where the $BLUM Mining Game is active:
+### Option 2: Running Using `INSTALL.bat` and `START.bat`
 
-    > [✅] | Enter the window name (1 - TelegramDesktop):
+#### Step 1: Installation with `INSTALL.bat`
 
-   If you're using Telegram Desktop, enter 1. Otherwise, input the window name of your specific Telegram client.
+1. **Run `INSTALL.bat`** to automatically install the required libraries:
+   - This file installs all necessary Python dependencies for the script.
+   - Just double-click the `INSTALL.bat` file, and the installation process will complete automatically.
 
-5. **Set the Start Delay**
+#### Step 2: Start with `START.bat`
 
-   Specify the delay (in seconds) before the clicker starts:
-
-   > [✅] | Enter delay in seconds before starting the auto-clicker:
-
-   After the delay, the clicker will start automatically:
-
-   > [⏰] | Time is over. Clicker is started!
- 
-6. **Gameplay**
-
-   - **Avoid Moving Your Cursor**: Do not move the mouse cursor while the clicker is running to avoid accidental clicks on obstacles (bombs).
-   - **Pause/Resume**: Press **Q** at any time to pause or resume the auto-clicker.
-   - **Exit**: Press **Z** to exit the program if the game freezes or the clicker hangs.
+1. **Run `START.bat`** to launch the auto-clicker:
+   - Default settings: 2 seconds delay and targeting **TelegramDesktop**.
+   - The script will start, and you can pause with **Q** or exit with **Z**.
+  
+2. **Gameplay**:
+   - The clicker will automatically click in the game after the delay.
+   - **Q** pauses/resumes the clicker, and **Z** exits the program.
 
 ## Benefits
 
